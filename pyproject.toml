@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "armd"
+version = "0.1.0"
+description = ""
+authors = ["faith <jamienibtong@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+numpy = "<=1.26.4"
+pandas = "^2.2.2"
+inference-sdk = "^0.18.1"
+inference = "^0.18.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
